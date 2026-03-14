@@ -1,0 +1,166 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "React Fundamentals",
+      "instructor": "Sarah Johnson",
+      "duration": "8 hours",
+      "category": "Web Development",
+      "level": "Beginner",
+      "description": "Master the core concepts of React including components, state, props, hooks, and the React ecosystem. Build real-world projects from scratch.",
+      "thumbnail": "https://placehold.co/400x220/4361ee/ffffff?text=React+Fundamentals",
+      "price": 49.99,
+      "rating": 4.8,
+      "students": 1240,
+      "lessons": [
+        { "id": 1, "title": "Introduction to React", "duration": "15 min", "type": "video" },
+        { "id": 2, "title": "Setting Up Your Environment", "duration": "20 min", "type": "video" },
+        { "id": 3, "title": "JSX and Components", "duration": "30 min", "type": "video" },
+        { "id": 4, "title": "Props and State", "duration": "40 min", "type": "video" },
+        { "id": 5, "title": "React Hooks", "duration": "45 min", "type": "video" },
+        { "id": 6, "title": "Final Quiz", "duration": "20 min", "type": "quiz" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Node.js & Express Backend",
+      "instructor": "Michael Chen",
+      "duration": "10 hours",
+      "category": "Backend",
+      "level": "Intermediate",
+      "description": "Build scalable backend applications using Node.js and Express. Learn REST APIs, middleware, authentication, and database integration.",
+      "thumbnail": "https://placehold.co/400x220/06d6a0/ffffff?text=Node.js+Express",
+      "price": 59.99,
+      "rating": 4.7,
+      "students": 980,
+      "lessons": [
+        { "id": 1, "title": "Node.js Basics", "duration": "20 min", "type": "video" },
+        { "id": 2, "title": "Setting up Express", "duration": "25 min", "type": "video" },
+        { "id": 3, "title": "RESTful Routes", "duration": "35 min", "type": "video" },
+        { "id": 4, "title": "Middleware & Auth", "duration": "50 min", "type": "video" },
+        { "id": 5, "title": "Database Integration", "duration": "60 min", "type": "video" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Python for Data Science",
+      "instructor": "Emily Rodriguez",
+      "duration": "12 hours",
+      "category": "Data Science",
+      "level": "Beginner",
+      "description": "Dive into Python programming for data analysis using NumPy, Pandas, Matplotlib, and introductory machine learning with scikit-learn.",
+      "thumbnail": "https://placehold.co/400x220/f72585/ffffff?text=Python+Data+Science",
+      "price": 69.99,
+      "rating": 4.9,
+      "students": 2100,
+      "lessons": [
+        { "id": 1, "title": "Python Basics", "duration": "25 min", "type": "video" },
+        { "id": 2, "title": "NumPy Arrays", "duration": "30 min", "type": "video" },
+        { "id": 3, "title": "Pandas DataFrames", "duration": "40 min", "type": "video" },
+        { "id": 4, "title": "Data Visualization", "duration": "35 min", "type": "video" },
+        { "id": 5, "title": "Intro to ML", "duration": "55 min", "type": "video" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "UI/UX Design Principles",
+      "instructor": "Alex Kim",
+      "duration": "6 hours",
+      "category": "Design",
+      "level": "Beginner",
+      "description": "Learn the fundamentals of user interface and user experience design. Covers wireframing, prototyping, color theory, and usability testing.",
+      "thumbnail": "https://placehold.co/400x220/7209b7/ffffff?text=UI+UX+Design",
+      "price": 44.99,
+      "rating": 4.6,
+      "students": 750,
+      "lessons": [
+        { "id": 1, "title": "Design Thinking", "duration": "20 min", "type": "video" },
+        { "id": 2, "title": "Wireframing Basics", "duration": "30 min", "type": "video" },
+        { "id": 3, "title": "Color Theory", "duration": "25 min", "type": "video" },
+        { "id": 4, "title": "Typography", "duration": "20 min", "type": "video" },
+        { "id": 5, "title": "Prototyping", "duration": "40 min", "type": "video" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Advanced JavaScript",
+      "instructor": "David Park",
+      "duration": "9 hours",
+      "category": "Web Development",
+      "level": "Advanced",
+      "description": "Deep dive into advanced JavaScript topics: closures, prototypes, async/await, event loop, design patterns, and performance optimization.",
+      "thumbnail": "https://placehold.co/400x220/fb8500/ffffff?text=Advanced+JS",
+      "price": 54.99,
+      "rating": 4.8,
+      "students": 1560,
+      "lessons": [
+        { "id": 1, "title": "Closures & Scope", "duration": "30 min", "type": "video" },
+        { "id": 2, "title": "Prototype Chain", "duration": "35 min", "type": "video" },
+        { "id": 3, "title": "Async/Await Deep Dive", "duration": "45 min", "type": "video" },
+        { "id": 4, "title": "Event Loop", "duration": "40 min", "type": "video" },
+        { "id": 5, "title": "Design Patterns", "duration": "50 min", "type": "video" }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "AWS Cloud Essentials",
+      "instructor": "Priya Sharma",
+      "duration": "15 hours",
+      "category": "Cloud",
+      "level": "Intermediate",
+      "description": "Get hands-on with AWS services including EC2, S3, RDS, Lambda, and CloudFormation. Prepare for the AWS Solutions Architect exam.",
+      "thumbnail": "https://placehold.co/400x220/3a86ff/ffffff?text=AWS+Cloud",
+      "price": 79.99,
+      "rating": 4.7,
+      "students": 890,
+      "lessons": [
+        { "id": 1, "title": "AWS Overview", "duration": "20 min", "type": "video" },
+        { "id": 2, "title": "EC2 & Networking", "duration": "45 min", "type": "video" },
+        { "id": 3, "title": "S3 & Storage", "duration": "30 min", "type": "video" },
+        { "id": 4, "title": "Lambda & Serverless", "duration": "40 min", "type": "video" },
+        { "id": 5, "title": "RDS & Databases", "duration": "50 min", "type": "video" }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@lms.com",
+      "password": "admin123",
+      "role": "admin",
+      "enrolledCourses": [],
+      "progress": {}
+    },
+    {
+      "id": 2,
+      "name": "John Student",
+      "email": "john@student.com",
+      "password": "john123",
+      "role": "student",
+      "enrolledCourses": [1, 3],
+      "progress": {
+        "1": 60,
+        "3": 30
+      }
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "userId": 2,
+      "courseId": 1,
+      "enrolledAt": "2025-01-10",
+      "progress": 60,
+      "completedLessons": [1, 2, 3]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "courseId": 3,
+      "enrolledAt": "2025-02-05",
+      "progress": 30,
+      "completedLessons": [1]
+    }
+  ]
+}
